@@ -7,7 +7,8 @@ package za.ac.cput.mavenproject1;
 
 /**
  *
- * @author Princ
+ * @author Princely Ndlangamandla
+ * 213063964
  */
 public class GitandGitHub {
     
