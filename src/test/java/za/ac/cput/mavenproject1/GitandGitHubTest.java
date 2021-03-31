@@ -17,7 +17,7 @@ import static org.junit.Assert.*;
  * @author Princ
  */
 public class GitandGitHubTest {
-    
+    private GitandGitHub test;
     public GitandGitHubTest() {
     }
     
@@ -31,6 +31,7 @@ public class GitandGitHubTest {
     
     @Before
     public void setUp() {
+        this.test = new GitandGitHub();
     }
     
     @After
@@ -41,6 +42,11 @@ public class GitandGitHubTest {
     public void testSomeMethod() {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+    }
+    public void testAddition(){
+        int result = test.testingWithTwoNumbers(20, 60);
+        assertEquals(80, result);
+        
     }
     
 }
