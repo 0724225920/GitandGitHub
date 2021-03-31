@@ -11,5 +11,8 @@ package za.ac.cput.mavenproject1;
  * 213063964
  */
 public class GitandGitHub {
+    public int testingWithTwoNumbers(int a, int b){
+        return a + b;
+    }
     
 }
